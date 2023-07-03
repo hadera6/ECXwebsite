@@ -228,24 +228,21 @@ var speed = 500000;
 
 // Mouse Over logo switch
 
-function hover() {
+// function hover() {
 
-    document.getElementById("logo").setAttribute('src', 'https://gcx.com.gh/assets/img/logo_black.png');
+//     document.getElementById("logo").setAttribute('src', '../assets/image/logo_white.png');
 
-}
+// }
 
-;
+// ;
 
-function unhover() {
+// function unhover() {
 
-    document.getElementById("logo").setAttribute('src', 'https://gcx.com.gh/assets/img/logo_white.png');
+//     document.getElementById("logo").setAttribute('src', '../assets/image/logo_white.png');
 
-}
+// }
 
-;
-
-
-
+// ;
 
 //Nav Hover
 
