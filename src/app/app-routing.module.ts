@@ -32,8 +32,6 @@ import { PublicationsComponent} from '../components/resources/publications/publi
 import { CareerComponent} from '../components/career/career.component';
 import { MemberComponent} from '../components/member/member.component';
 
-import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
-
 const routes: Routes = [
   { path:'', component: HomeComponent},
   { path:'home', component: HomeComponent},
@@ -70,7 +68,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), MdbAccordionModule ],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -8,10 +8,13 @@ import { HeaderComponent} from '../components/shared/header/header.component';
 import { IntroComponent} from '../components/home/intro/intro.component';
 import { FooterComponent} from '../components/shared/footer/footer.component';
 import { HomeComponent} from '../components/home/home.component';
+
 import { GovernanceComponent} from '../components/about-us/governance/governance.component';
 import { HowEcxWorksComponent} from '../components/about-us/how-ecx-works/how-ecx-works.component';
 import { LawsAndRulesComponent} from '../components/about-us/laws-and-rules/laws-and-rules.component';
 import { MessageFromCeoComponent} from '../components/about-us/message-from-ceo/message-from-ceo.component';
+import { AboutUsNavComponent} from '../components/about-us/about-us-nav/about-us-nav.component';
+
 import { ChickpeasComponent} from '../components/commodities/chickpeas/chickpeas.component';
 import { CoffeeComponent} from '../components/commodities/coffee/coffee.component';
 import { GreenMungBeanComponent} from '../components/commodities/green-mung-bean/green-mung-bean.component';
@@ -23,18 +26,27 @@ import { SoyaBeanComponent} from '../components/commodities/soya-bean/soya-bean.
 import { WheatComponent} from '../components/commodities/wheat/wheat.component';
 import { WhitePeaBeanComponent} from '../components/commodities/white-pea-bean/white-pea-bean.component';
 import { WhitePigeonPeaComponent} from '../components/commodities/white-pigeon-pea/white-pigeon-pea.component';
+import { CommoditiesNavComponent} from '../components/commodities/commodities-nav/commodities-nav.component';
+
 import { BeingClientComponent} from '../components/membership/being-a-client/being-a-client.component';
 import { CertificationComponent} from '../components/membership/certification/certification.component';
 import { HowTobeMemberComponent} from '../components/membership/how-tobe-member/how-tobe-member.component';
+import { MembershipNavComponent} from '../components/membership/membership-nav/membership-nav.component';
+
 import { CentralDepositoryComponent} from '../components/operations/central-depository/central-depository.component';
 import { ClearingAndSettlementComponent} from '../components/operations/clearing-and-settlement/clearing-and-settlement.component';
 import { ComplianceComponent} from '../components/operations/compliance/compliance.component';
 import { TradingComponent} from '../components/operations/trading/trading.component';
 import { WarehouseAndQualityComponent} from '../components/operations/warehouse-and-quality/warehouse-and-quality.component';
+import { OperationsNavComponent } from 'src/components/operations/operations-nav/operations-nav.component';
+
 import { AnnouncementComponent} from '../components/news-and-events/announcement/announcement.component';
 import { EventsComponent} from '../components/news-and-events/events/events.component';
 import { NewsComponent} from '../components/news-and-events/news/news.component';
 import { NewsletterComponent} from '../components/news-and-events/newsletter/newsletter.component';
+import { NewsEventsNavComponent } from 'src/components/news-and-events/news-events-nav/news-events-nav.component';
+
+
 import { PublicationsComponent} from '../components/resources/publications/publications.component';
 import { CareerComponent} from '../components/career/career.component';
 import { MemberComponent} from '../components/member/member.component';
@@ -59,6 +71,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,6 +82,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     IntroComponent,
     FooterComponent,
     HomeComponent,
+    
     ChickpeasComponent,
     CoffeeComponent,
     GreenMungBeanComponent,
@@ -78,8 +94,31 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     WheatComponent,
     WhitePeaBeanComponent,
     WhitePigeonPeaComponent,
-    GovernanceComponent
+    CommoditiesNavComponent,
 
+    GovernanceComponent,
+    HowEcxWorksComponent,
+    LawsAndRulesComponent,
+    MessageFromCeoComponent,
+    AboutUsNavComponent,
+
+    BeingClientComponent,
+    CertificationComponent,
+    HowTobeMemberComponent,
+    MembershipNavComponent,
+
+    CentralDepositoryComponent,
+    ClearingAndSettlementComponent,
+    ComplianceComponent,
+    TradingComponent,
+    WarehouseAndQualityComponent,
+    OperationsNavComponent,
+
+    AnnouncementComponent,
+    NewsletterComponent,
+    EventsComponent,
+    NewsComponent,
+    NewsEventsNavComponent
   ],
   imports: [
     BrowserModule,
